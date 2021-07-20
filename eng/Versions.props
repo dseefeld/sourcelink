@@ -7,6 +7,7 @@
     <SemanticVersioningV1>true</SemanticVersioningV1>
     <!-- Opt-in repo features -->
     <UsingToolNetFrameworkReferenceAssemblies>true</UsingToolNetFrameworkReferenceAssemblies>
+    <UsingToolNetFrameworkReferenceAssemblies Condition=" '$(DotNetBuildFromSource)' == 'true' ">false</UsingToolNetFrameworkReferenceAssemblies>
     <UsingToolSymbolUploader>true</UsingToolSymbolUploader>
     <XUnitVersion>2.4.1</XUnitVersion>
     <MicrosoftBuildVersion>16.7.0</MicrosoftBuildVersion>
